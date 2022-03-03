@@ -168,7 +168,6 @@ bool Platforms::ballCollision(int bx, int by) {
 
 void Platforms::kill() {
     isDead = true;
-    std::cout << "Killethed\n";
 }
 
 bool Platforms::checkDead() {
